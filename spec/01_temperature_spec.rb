@@ -1,9 +1,13 @@
 require_relative '../lib/01_temperature'
 
 describe "temperature conversion functions" do
+<<<<<<< HEAD
 
   describe "#ftoc" do
 
+=======
+  describe "#ftoc" do
+>>>>>>> Ajout des fichiers
     it "converts freezing temperature" do
       expect(ftoc(32)).to eq(0)
     end
@@ -19,11 +23,17 @@ describe "temperature conversion functions" do
     it "converts arbitrary temperature" do
       expect(ftoc(68)).to eq(20)
     end
+<<<<<<< HEAD
 
   end
 
   describe "#ctof" do
 
+=======
+  end
+
+  describe "#ctof" do
+>>>>>>> Ajout des fichiers
     it "converts freezing temperature" do
       expect(ctof(0)).to eq(32)
     end
@@ -35,7 +45,11 @@ describe "temperature conversion functions" do
     it "converts arbitrary temperature" do
       expect(ctof(20)).to eq(68)
     end
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> Ajout des fichiers
     it "converts body temperature" do
       expect(ctof(37)).to be_within(0.1).of(98.6)
       # Why do we need to use be_within?
@@ -44,7 +58,11 @@ describe "temperature conversion functions" do
       # and http://en.wikipedia.org/wiki/Double_precision_floating-point_format
       # Also, try "puts 0.5 - 0.4 - 0.1" -- pretty crazy, right?
     end
+<<<<<<< HEAD
 
   end
 
+=======
+  end
+>>>>>>> Ajout des fichiers
 end

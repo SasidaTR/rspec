@@ -15,12 +15,18 @@ describe 'crazy stuff on strings' do
   # Reverse, upcase then removes all L, T and A.
   # Hint: google ruby string
   it 'does crazy stuff on strings' do
+<<<<<<< HEAD
     expect(reverse_upcase_noLTA("Tries this at Home, Kids"))
       .to eq("SDIK ,EMOH  SIH SEIR")
     expect(reverse_upcase_noLTA("Ponies loves carrots"))
       .to eq("SORRC SEVO SEINOP")
     expect(reverse_upcase_noLTA("qwertyuiopasdfghjkl;zxcvbn"))
       .to eq("NBVCXZ;KJHGFDSPOIUYREWQ")
+=======
+    expect(reverse_upcase_noLTA("Tries this at Home, Kids")).to eq("SDIK ,EMOH  SIH SEIR")
+    expect(reverse_upcase_noLTA("Ponies loves carrots")).to eq("SORRC SEVO SEINOP")
+    expect(reverse_upcase_noLTA("qwertyuiopasdfghjkl;zxcvbn")).to eq("NBVCXZ;KJHGFDSPOIUYREWQ")
+>>>>>>> Ajout des fichiers
   end
 end
 
@@ -49,11 +55,17 @@ describe 'crazy stuff on arrays' do
   # - sorted
   # BONUS : You can do this in one line less than 55 chars
   it 'does crazy stuff on Arrays' do
+<<<<<<< HEAD
     expect(magic_array([1, 2, 3, 4, 5, 6]))
       .to eq([2, 4, 8, 10])
     expect(magic_array([1, [2, 3], 4, 5, 6, 23, 31, [1, 2, 3]]))
       .to eq([2, 4, 8, 10, 46, 62])
     expect(magic_array([[32, 54], [48, 12], [21, [1, 2, [3]]], 7, 8]))
       .to eq([2, 4, 14, 16, 64])
+=======
+    expect(magic_array([1, 2, 3, 4, 5, 6])).to eq([2, 4, 8, 10])
+    expect(magic_array([1, [2, 3], 4, 5, 6, 23, 31, [1, 2, 3]])).to eq([2, 4, 8, 10, 46, 62])
+    expect(magic_array([[32, 54], [48, 12], [21, [1, 2, [3]]], 7, 8])).to eq([2, 4, 14, 16, 64])
+>>>>>>> Ajout des fichiers
   end
 end

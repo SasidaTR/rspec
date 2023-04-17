@@ -42,11 +42,15 @@ end
 # we'll show you the first, you will write the others :)
 
 describe "#multiply" do
+<<<<<<< HEAD
 
+=======
+>>>>>>> Ajout des fichiers
   it "multiplies two numbers" do
     expect(multiply(3, 4)).to eq(12)
   end
 
+<<<<<<< HEAD
   it "multiplies two other numbers"
     # one other test here, don't forget do end ;)
 
@@ -57,13 +61,52 @@ end
 
 describe "#power" do
   it "raises one number to the power of another number"
+=======
+  it "multiplies two other numbers" do
+    expect(multiply(5, 9)).to eq(45)
+    # one other test here, don't forget do end ;)
+  end
+
+  it "multiplies two other numbers, one of them being 0" do
+    expect(multiply(0, 8)).to eq(0)
+    # one last test, with 0 in it
+  end
+end
+
+describe "#power" do
+  it "raises one number to the power of another number" do
+  expect(power(2, 2)).to eq(4)
+  end
+>>>>>>> Ajout des fichiers
 end
 
 # http://en.wikipedia.org/wiki/Factorial
 describe "#factorial" do
+<<<<<<< HEAD
   it "computes the factorial of 0"
   it "computes the factorial of 1"
   it "computes the factorial of 2"
   it "computes the factorial of 5"
   it "computes the factorial of 10"
+=======
+  it "computes the factorial of 0" do
+    expect(factorial(0)).to eq(1)
+  end
+
+  it "computes the factorial of 1" do
+    expect(factorial(1)).to eq(1)
+  end
+
+  it "computes the factorial of 2" do
+    expect(factorial(2)).to eq(2)
+  end
+
+  it "computes the factorial of 5" do
+    expect(factorial(5)).to eq(120)
+  end
+  
+  it "computes the factorial of 10" do
+    expect(factorial(10)).to eq(3628800)
+  end
+>>>>>>> Ajout des fichiers
 end

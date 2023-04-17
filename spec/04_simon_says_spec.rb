@@ -79,5 +79,8 @@ describe "Simon says" do
       expect(titleize("the bridge over the river kwai")).to eq("The Bridge Over the River Kwai")
     end
   end
+<<<<<<< HEAD
 
+=======
+>>>>>>> Ajout des fichiers
 end
